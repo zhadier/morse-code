@@ -18,17 +18,25 @@
 
 - Clone this repo locally using git in the command line and the following command
 
- ``` git clone https://github.com/zhadier/morse-code ```
+ ```bash
+ > git clone https://github.com/zhadier/morse-code 
+ ```
 
 - Alternatively, you can just download the complete zip file and extract the folder in your directory
 
 #### Step 2:
 
 In the project directory, you can run:
-``` ruby Morse.rb ```
+
+```bash
+> ruby Morse.rb
+```
 
 or alternatively you can copy and paste the commands in
-``` irb ```
+
+```bash
+> irb 
+```
 
 ## Authors
 
