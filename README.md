@@ -4,7 +4,7 @@
 
 # Morse Code
 
->  "Morse Code" is my first experience working with Ruby and it's basically a Morce code decoder.
+> "Morse Code" is my first experience working with Ruby and it's basically a Morce code decoder.
 
 ## Built With
 
@@ -18,18 +18,17 @@
 
 - Clone this repo locally using git in the command line and the following command
 
-  git clone https://github.com/zhadier/morse-code
-  
-- Alternatively, you can just download the complete zip file and extract the folder in your directory
+ ``` git clone https://github.com/zhadier/morse-code ```
 
+- Alternatively, you can just download the complete zip file and extract the folder in your directory
 
 #### Step 2:
 
 In the project directory, you can run:
-```ruby [file name]```
+``` ruby Morse.rb ```
 
-or alternatively you can copy and paste the commands in 
-```irb```
+or alternatively you can copy and paste the commands in
+``` irb ```
 
 ## Authors
 
@@ -39,7 +38,9 @@ or alternatively you can copy and paste the commands in
 - LinkedIn: [Zeeshan Haider](https://www.linkedin.com/in/zhadier39/)
 
 👤 **Kyrillos Hany**
+
 - GitHub: [@Bondok6](https://github.com/Bondok6)
+- LinkedIn: [Kyrillos](https://www.linkedin.com/in/kyrillos-hany/)
 
 ## 🤝 Contributing
 

@@ -2,16 +2,16 @@
 
 def decode_char(str)
   comparables = {
-    ".-"=> "A",
-    "-..."=> "B",
-    "-.-."=> "C",
-    "-.."=> "D",
-    "."=> "E",
-    "..-."=> "F",
-    "--."=> "G",
-    "...."=> "H",
-    ".."=> "I",
-    ".---"=> "J",
+    '.-'=> 'A',
+    '-...'=> 'B',
+    '-.-.'=> 'C',
+    '-..'=> 'D',
+    '.'=> 'E',
+    '..-.'=> 'F',
+    '--.'=> 'G',
+    '....'=> 'H',
+    '..'=> 'I',
+    '.---'=> 'J',
     '-.-'=> 'K',
     '.-..'=> 'L',
     '--'=> 'M',
@@ -33,13 +33,12 @@ def decode_char(str)
 end
 
 def decode_word (str)
-  morse_array = str.split
-  str_array = []
-  morse_array.each {|n|
-    str_array.push (decode_char n)
-  }
-  return str_array.join
+  str.split.map {|n| decode_char n}.join
 end
 
-puts decode_word "-- -.--"
+def decode (str)
+  str.split('   ').map {|n| decode_word n}.join(' ')
+end
+
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
 
